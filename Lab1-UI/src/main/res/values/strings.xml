@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Labs20192-Gr05</string>
+    <string name="name">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="sexo">Sexo</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="cambiar">cambiar</string>
+    <string name="grado_escolaridad">Grado Escolaridad</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="telefono">Telefono</string>
+    <string name="correo">Correo</string>
+    <string name="email">Email</string>
+    <string name="pa_s">País</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="siguiente2">Siguiente</string>
+
 </resources>
