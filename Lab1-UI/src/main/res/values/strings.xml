@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Labs20192-Gr05</string>
+    <string name="app_name">Informacion Personal</string>
     <string name="name">Nombre</string>
     <string name="Apellido">Apellido</string>
     <string name="sexo">Sexo</string>

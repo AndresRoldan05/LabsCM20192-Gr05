@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opcion">
+        <item>Grado de Escolaridad</item>
+        <item> Primaria</item>>
+        <item>Secundaria</item>>
+        <item>Universitario</item>>
+        <item>Otro</item>>
+    </string-array>>
+</resources>
