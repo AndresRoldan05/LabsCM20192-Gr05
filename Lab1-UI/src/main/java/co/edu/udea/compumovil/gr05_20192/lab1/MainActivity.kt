@@ -24,21 +24,31 @@ class MainActivity : AppCompatActivity() {
         val mes = calendario.get(Calendar.MONTH)
         val anio= calendario.get(Calendar.YEAR)
 
-        cambiar.setOnClickListener{
-            val dpd = DatePickerDialog( this, android.R.style.Theme_Holo_Dialog, DatePickerDialog.OnDateSetListener{ view: DatePicker?, year: Int, month: Int, dayOfMonth: Int ->  fecha.setText(""+ dayOfMonth + "/" + month + "/" + year)}, anio, mes, dia)
+        cambiar.setOnClickListener {
+            val dpd = DatePickerDialog(
+                this,
+                android.R.style.Theme_Holo_Dialog,
+                DatePickerDialog.OnDateSetListener { view: DatePicker?, year: Int, month: Int, dayOfMonth: Int ->
+                    fecha.setText("" + dayOfMonth + "/" + month + "/" + year)}, anio, mes, dia )
             dpd.show()
+        }
 
-            val arreglo = ArrayAdapter.createFromResource(this, R.array.opcion, android.R.layout.simple_spinner_item)
+            val arreglo = ArrayAdapter.createFromResource(
+                this,
+                R.array.opcion,
+                android.R.layout.simple_spinner_item
+            )
 
 
             spinner.adapter = arreglo
+
 
             siguiente.setOnClickListener {
                 val intent: Intent = Intent(this, contacto::class.java)
                 startActivity(intent)
             }
 
-        }
+
 
 
 

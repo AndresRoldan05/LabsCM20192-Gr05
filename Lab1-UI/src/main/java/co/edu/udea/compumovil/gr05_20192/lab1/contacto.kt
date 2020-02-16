@@ -11,7 +11,7 @@ class contacto : AppCompatActivity() {
         setContentView(R.layout.contactinfo)
 
 
-        var pais = findViewById <AutoCompleteTextView>(R.id.paises)
+        val pais = findViewById <AutoCompleteTextView>(R.id.paises)
         val countries = resources.getStringArray(R.array.countries_array)
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, countries)
